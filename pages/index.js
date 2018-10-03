@@ -1,8 +1,11 @@
 import 'isomorphic-fetch'
 import React from 'react'
 import { connect } from 'react-redux'
+import dynamic from 'next/dynamic'
 
-import Ziggeo from '../components/Ziggeo';
+const Ziggeo = dynamic(() => import('../components/Ziggeo'), {
+  ssr: false
+})
 
 class Index extends React.Component {
 
