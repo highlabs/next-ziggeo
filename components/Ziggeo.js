@@ -5,6 +5,8 @@ export class Ziggeo extends Component {
   render() {
     return (
       <ZiggeoRecorder
+        apiKey="API_KEY"
+        onlyaudio={true}
         height={180}
         width={320}
       />

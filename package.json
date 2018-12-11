@@ -10,7 +10,7 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
-    "react-ziggeo": "^3.1.0",
+    "react-ziggeo": "https://github.com/highlabs/react-ziggeo",
     "redux": "^3.7.2"
   },
   "scripts": {
@@ -22,5 +22,5 @@
     "workbox-webpack-plugin": "^3.4.1"
   },
   "main": "index.js",
-  "author": "Miguel Marcondes <miguel@webgoal.com.br>"
+  "author": "Daniel Oshiro <daniel.oshiro@webgoal.com.br>"
 }
